@@ -21,12 +21,15 @@ var timesMundiais = new HashSet<string> { "Conrinthians", "São Paulo", "Santos"
 
 //ExibirColecao(result);
 
+
 #endregion
 
 //Construtor usando IEnumerable
 #region Construtor usando IEnumerable
 
 InicializarHashSets();
+
+Console.ReadKey();
 
 static void InicializarHashSets()
 {
@@ -163,5 +166,3 @@ static void ExibirColecao<T>(IEnumerable<T> timesBR)
     }
 }
 #endregion
-
-Console.ReadKey();
